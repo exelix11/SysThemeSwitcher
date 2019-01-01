@@ -3,7 +3,8 @@
 **This is experimental and hasn't been throughly tested, use it at your own risk. There's a sd corruption risk for exfat users if you shut down your console while the theme is being switched (10 seconds after boot).**
 
 This sysmodule automatically changes the theme of the console at every boot.
-Memory usage shouldn't be an issue as it closes as soon as the copy is over, but it may crash if you have too many modules at the same time.
+Memory usage shouldn't be an issue as it closes as soon as the copy is over, but it may crash if you have too many modules at the same time. \
+**For now this works only if you have one cfw installed** (AKA just one cfw folder in your sd `atmosphere`, `reinx` or `sxos`)
 
 ## Usage
 ### Manual setup:
